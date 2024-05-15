@@ -1,0 +1,32 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "this is react learinig app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supaly/React-demo.git"
+  },
+  "keywords": [],
+  "author": "Supaly Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Supaly/React-demo/issues"
+  },
+  "homepage": "https://github.com/Supaly/React-demo#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
