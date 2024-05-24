@@ -28,10 +28,9 @@
 }
 .res-card {
     width: 200px;
-    height: 300px;
+    max-height: fit-content;
     padding: 5px;
     margin: 5px;
-    display: inline-grid;
     background-color:rgb(244, 234, 234);
 }
 
