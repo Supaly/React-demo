@@ -1,2 +1,57 @@
-#heading {
-    color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul >li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.res-card {
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-grid;
+    background-color:rgb(244, 234, 234);
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.res-logo {
+    width: 75%;
+}
+
+.search {
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
