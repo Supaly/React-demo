@@ -29,8 +29,8 @@
 .res-card {
     width: 200px;
     max-height: fit-content;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 10px;
     background-color:rgb(244, 234, 234);
 }
 
@@ -40,11 +40,16 @@
 }
 
 .res-logo {
-    width: 75%;
+    width: 100%;
 }
 
 .search {
     padding: 10px;
+}
+
+.filter {
+    display: flex;
+    margin: 10px;
 }
 
 .footer {
@@ -53,4 +58,22 @@
     border: 1px solid black;
     padding: 5px;
     margin-top: 10px;
+}
+
+.shimmer-component {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0
+}
+
+.login {
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
 }
